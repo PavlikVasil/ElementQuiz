@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Show Answer"; ObjectID = "Cil-gT-MK7"; */
+"Cil-gT-MK7.normalTitle" = "Show Answer";
+
+/* Class = "UILabel"; text = "Answer Label"; ObjectID = "ImJ-8I-QH0"; */
+"ImJ-8I-QH0.text" = "Answer Label";
+
+/* Class = "UITextField"; placeholder = "Enter answer"; ObjectID = "LsS-df-dUZ"; */
+"LsS-df-dUZ.placeholder" = "Enter answer";
