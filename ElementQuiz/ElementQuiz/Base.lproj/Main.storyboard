@@ -207,8 +207,10 @@
                     <connections>
                         <outlet property="TextField" destination="LsS-df-dUZ" id="eW7-3O-S0x"/>
                         <outlet property="answerLabel" destination="ImJ-8I-QH0" id="I2A-jO-Rpr"/>
+                        <outlet property="enterTap" destination="ymi-Nk-5ii" id="scr-jF-N07"/>
                         <outlet property="imageView" destination="9B5-k0-NAO" id="p9p-Nf-W2r"/>
                         <outlet property="score" destination="Pe1-YI-F5u" id="qOo-iz-ThU"/>
+                        <outlet property="showAnswer" destination="Cil-gT-MK7" id="pEr-to-Dbz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

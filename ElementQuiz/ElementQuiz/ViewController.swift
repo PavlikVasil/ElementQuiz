@@ -90,7 +90,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if elementList.count == 0 {
                 answerLabel.text = "Your score: \(scoreCounter)"
                 sender.isEnabled = false
-                
+                showAnswer.isEnabled = false
             }
                 TextField.text = ""
         }else {
@@ -101,6 +101,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
     
+    @IBOutlet weak var showAnswer: UIButton!
+    @IBOutlet weak var enterTap: UIButton!
     @IBOutlet weak var TextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var answerLabel: UILabel!
@@ -132,7 +134,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                      if elementList.count == 0 {
                          answerLabel.text = "Your score: \(scoreCounter)"
                          sender.isEnabled = false
-                        
+                         enterTap.isEnabled = false
                      }
         }
     }
